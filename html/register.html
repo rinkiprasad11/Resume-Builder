@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+   
+  </head>
+  <body>
+    <div class="fullHeight">
+    <h4>Register Here</h4>
+     
+    <form id="form">
+      <label>Enter Name</label>
+      <input
+        id="fname"
+        type="text"
+        name="fname",
+        
+        placeholder="Enter Name Here"
+        pattern="[a-zA-Z]+$"
+        title="Only Alphabets are allowed"
+        required
+      />
+      
+     
+    </br>
+    </br>
+      <label>Enter email</label>
+      <input
+        id="email"
+        type="text"
+        name="email",
+       
+        placeholder="Enter Email Here"
+        title="Only Alphabets are allowed"
+        required
+      />
+       </br> </br>
+      <label>Enter Password</label>
+      <input
+        id="pwd"
+        type="password"
+        name="pwd",
+        
+        placeholder="Enter Password Here"
+        pattern="[a-zA-Z]+$"
+         minlength="8" maxlength="20"
+        required
+      />
+       </br> </br>
+
+      
+    
+    </form>
+       <button class="btn" type="submit" id="submit">Register</button>
+       <button class="btn" type="submit" id="submit"><a href="../html/login.html">Login</a></button>
+      </div>
+        <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/register.js"/>
+  </body>
+  
+</html>

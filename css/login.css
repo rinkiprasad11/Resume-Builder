@@ -1,0 +1,28 @@
+.top{
+    background-color: lightblue;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 5px;
+    width: auto;
+}
+
+.container-main{
+    background-image: url("../login.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+#login{
+    margin-top: 5px;
+}
+
+.d-flex{
+    float: right;
+}
+
+.navbar{
+    background-color: lightblue;
+}

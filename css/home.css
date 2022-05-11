@@ -1,0 +1,39 @@
+.card:hover{
+    padding: 10px;
+    /* text-align: center; */
+    color: white;
+    background-color: lightgray;
+
+  }
+  
+  .tab1cards {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    column-gap: 20px;
+  }
+
+.navbar{
+    background-color: lightblue;
+}
+
+h4{
+    text-align: center;
+}
+
+img{
+    padding: 15px;
+}
+
+.display{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.container-fluid{
+    background-image: url("./home.jpg");
+}

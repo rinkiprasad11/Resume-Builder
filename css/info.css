@@ -1,0 +1,17 @@
+/* .container-main{
+    background-image: url("../info.jpg");
+    background-repeat: no-repeat;
+    
+} */
+html, body {
+    height: 100%;
+    margin: 0;
+ }
+ .fullHeight{
+    height: 1000px;
+    background-image: url("../register.jpg");
+    /* color:white; */
+    font-size: 20px;
+    padding: 20px;
+    background-repeat: no-repeat;
+ }
